@@ -26,6 +26,12 @@ spring:
     removeAbandonedTimeout: 1800
     logAbandoned: true
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=1000;druid.stat.logSlowSql=true
+  rabbitmq:
+    host: 192.168.64.75
+    port: 5672
+    username: config
+    password: 123456
+    virtual-host: /config
 
 logging:
   level:
