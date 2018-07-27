@@ -45,4 +45,4 @@ mybatis:
     default-fetch-size: 100
     default-statement-timeout: 30
     mapper-locations: classpath*:mappers/**/*.xml
-
+    mapper-scan-packages: cc.seedland.inf.api.gateway.dao
