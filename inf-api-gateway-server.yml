@@ -27,9 +27,6 @@ spring:
     logAbandoned: true
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=1000;druid.stat.logSlowSql=true
 
-zuul:
-  routes:
-
 logging:
   level:
     root: INFO
